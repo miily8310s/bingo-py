@@ -1,3 +1,0 @@
-# bingo-py
-
-TODO:

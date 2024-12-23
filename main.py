@@ -44,6 +44,7 @@ def checkDiagonalBingo():
         # 右上から左下に向けた斜めで1文字ずつ確認する
         if bingoRows[row][s - 1 - row] in inputWords:
             rightDiagonalSum += 1
+    # いずれかでビンゴが成立しているかを返す
     return s == leftDiagonalSum or s == rightDiagonalSum
 
 
